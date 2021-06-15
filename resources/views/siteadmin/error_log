@@ -1,0 +1,4 @@
+[28-Aug-2016 23:47:11 America/Chicago] PHP Fatal error:  Call to undefined function url() in /home2/pofitec/public_html/demo.laravelecommerce.com/app/views/siteadmin/manage_contributor.blade.php on line 18
+[28-Aug-2016 23:47:15 America/Chicago] PHP Fatal error:  Call to undefined function url() in /home2/pofitec/public_html/demo.laravelecommerce.com/app/views/siteadmin/manage_contributor.blade.php on line 18
+[14-Sep-2016 12:07:00 America/Chicago] PHP Fatal error:  Call to undefined function url() in /home2/pofitec/public_html/demo.laravelecommerce.com/app/views/siteadmin/manage_contributor.blade.php on line 18
+[14-Sep-2016 12:07:10 America/Chicago] PHP Fatal error:  Call to undefined function url() in /home2/pofitec/public_html/demo.laravelecommerce.com/app/views/siteadmin/manage_contributor.blade.php on line 18

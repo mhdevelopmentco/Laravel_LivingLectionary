@@ -1,0 +1,33 @@
+ RewriteEngine On
+   RewriteRule ^ADD_MY_RESOURCE$ http://livinglectionary.org/add_my_resource/ [L,R=301]
+   RewriteRule ^contribute$ http://livinglectionary.org/contributors/ [L,R=301]
+   RewriteRule ^affirmations/PLURALISM$ http://livinglectionary.org/affirmations/pluralism [L,R=301]
+   RewriteRule ^affirmations/PRAYER$ http://livinglectionary.org/affirmations/prayer [L,R=301]
+   RewriteRule ^affirmations/CREATION$ http://livinglectionary.org/affirmations/creation [L,R=301]
+   RewriteRule ^affirmations/CREATIVITY$ http://livinglectionary.org/affirmations/creativity [L,R=301]
+   RewriteRule ^affirmations/INCLUSION$ http://livinglectionary.org/affirmations/inclusion [L,R=301]
+   RewriteRule ^affirmations/JUSTICE$ http://livinglectionary.org/affirmations/justice [L,R=301] 
+  
+   RewriteRule ^affirmations/HUMILITY$ http://livinglectionary.org/affirmations/humility [L,R=301]
+   RewriteRule ^affirmations/ETERNITY$ http://livinglectionary.org/affirmations/eternity [L,R=301]
+   RewriteRule ^affirmations/SCIENCE$ http://livinglectionary.org/affirmations/science [L,R=301]
+   RewriteRule ^affirmations/SELF-CARE$ http://livinglectionary.org/affirmations/self-care [L,R=301]
+   RewriteRule ^affirmations/PURPOSE$ http://livinglectionary.org/affirmations/purpose [L,R=301]
+   
+
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
