@@ -120,7 +120,7 @@ $mcat = strtolower(str_replace(' ','-',$product_det->mc_name));
 <div >
      <div id="map" style="height: 428px; width: 100%px;">
      </div>
-      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB43AT_wikI5KDzqdfEJpwYgBn0hp8O5bY"></script>
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAP_KEY"></script>
 
     <script type="text/javascript">
     var locations = [
